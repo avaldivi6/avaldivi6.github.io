@@ -34,9 +34,8 @@
   </style>
 </head>
 <body>
-  
   <!--
-    MIGRATION NOTES:
+    MIGRATION NOTES (commented for repo use):
     - This is the teaching-first single-file site. Sections are annotated for easy migration to Jekyll/Hugo.
     - Jekyll mapping:
         _pages/about.md       -> #about content
@@ -44,6 +43,7 @@
         _pages/research.md    -> #research content
         _pages/publications.md-> #publications content (or use assets/publications.bib)
     - Publications entries use data-* attributes matching BibTeX fields (bibkey, author, year, title, journal/booktitle, doi, url).
+    - Visible "Migration checklist" card was removed at user request; the detailed checklist remains below in a commented block for future use.
   -->
 
   <header>
@@ -81,7 +81,13 @@
         <section id="teaching" class="card" aria-labelledby="teaching-title">
           <h2 id="teaching-title" class="section-title">Teaching — summary & highlights</h2>
 
+          <!-- Teaching Activities and Philosophy inserted as requested -->
           <p><strong>Teaching focus:</strong> curriculum development, large-enrollment instruction, and statistics education. I design courses to emphasize simulation-based inference, practical data analysis, and accessible materials for diverse learners.</p>
+
+          <h3 class="section-title" style="margin-top:8px">Teaching Activities and Philosophy</h3>
+          <p>My teaching spans undergraduate and graduate courses in statistics and data science, with an emphasis on applied modeling, statistical inference, and the use of modern computational tools. I regularly teach Applied Linear Models I and II (S431/S631 and S432/S632), introductory and intermediate courses in statistical inference (S350, S520), Biometry (S330/S530), and introductory statistics courses for data science graduate students, including online instruction in R (S519).</p>
+
+          <p>Across these courses, my approach emphasizes clear learning outcomes, alignment between instruction and assessment, and the integration of data-driven, reproducible workflows. I aim to help students develop both conceptual understanding and practical skills, preparing them to reason with data in academic, professional, and research settings. I am particularly interested in course and curriculum design, experiential learning opportunities, and evidence-based teaching practices that support student engagement and success at different stages of their academic careers.</p>
 
           <p class="muted"><strong>Selected teaching positions</strong></p>
           <ul>
@@ -130,105 +136,8 @@
         </section>
 
         <!--
-          SECTION: About (secondary)
+          SECTION: About (secondary) — includes Faculty Introduction (Website Bio)
           Jekyll target: _pages/about.md
         -->
         <section id="about" class="card" aria-labelledby="about-title" style="margin-top:16px">
-          <h2 id="about-title" class="section-title">About</h2>
-          <p>I am a Senior Lecturer in the Department of Statistics at Indiana University, Bloomington. My teaching centers on building accessible, simulation-forward courses for undergraduate and graduate students. I also maintain interests in statistical learning, generalized linear mixed models, and item response theory.</p>
-          <p class="muted">Office: Department of Statistics — Indiana University, Bloomington. Office hours: see course pages or contact me directly.</p>
-        </section>
-
-        <!--
-          SECTION: Research (tertiary)
-          Jekyll target: _pages/research.md
-        -->
-        <section id="research" class="card" aria-labelledby="research-title" style="margin-top:16px">
-          <h2 id="research-title" class="section-title">Research & interests</h2>
-          <p class="muted">Research interests listed as they appear on CV</p>
-          <ul>
-            <li><strong>Statistical Education</strong> — curriculum design, assessment, and scalable instruction</li>
-            <li><strong>Statistical Learning</strong> — random forest and rule-based ensemble methods</li>
-            <li><strong>Generalized Linear Mixed Models</strong> — applied modeling for clustered/longitudinal data</li>
-            <li><strong>Item Response Theory</strong> — psychometric modeling and assessment</li>
-          </ul>
-          <p class="small-note">Note: this site is teaching-first; if you'd like to present a fuller research CV and publications list prominently, I can re-balance the layout to research-first.</p>
-        </section>
-
-        <!--
-          SECTION: Publications (placeholder & structured)
-          Jekyll target: _pages/publications.md or assets/publications.bib
-        -->
-        <section id="publications" class="card" aria-labelledby="pub-title" style="margin-top:16px">
-          <h2 id="pub-title" class="section-title">Selected publications</h2>
-          <p class="muted">Full bibliography: provide an assets/publications.bib for automated import (recommended).</p>
-
-          <!-- Example entries — keep data-* fields so automated conversion from .bib is trivial later -->
-          <ul class="pub" aria-labelledby="pub-title">
-            <li class="publication"
-                data-bibkey="moderndive25"
-                data-author="Ismay, Ch., Kim, A., Valdivia, A."
-                data-year="2025"
-                data-title="Statistical Inference via Data Science. A ModernDive into R and the Tidyverse. 2nd Ed."
-                data-publisher="CRC"
-                data-type="book"
-                data-doi=""
-                data-url="">
-              Valdivia, A., &amp; Coauthor, B. (2025). <em>An example teaching-focused paper</em>. <strong>Journal of Statistics Education</strong>.
-            </li>
-
-            <!-- Keep adding structured <li class="publication" data-...> entries or supply a .bib -->
-          </ul>
-
-          <p class="small-note">If you upload a `.bib` (assets/publications.bib) I will generate (or help you generate) a Jekyll-compatible publications page that uses the BibTeX entries to produce a full bibliography automatically.</p>
-        </section>
-
-      </div>
-
-      <!-- RIGHT COLUMN: Sidebar -->
-      <aside>
-
-        <div class="card contact" id="contact" aria-labelledby="contact-title">
-          <h3 id="contact-title" class="section-title">Contact</h3>
-          <p>Email: <a href="mailto:artvaldi@iu.edu">artvaldi@iu.edu</a></p>
-          <p>Department of Statistics, Indiana University, Bloomington</p>
-          <p>Website: <a href="https://avaldivi6.github.io" target="_blank" rel="noopener">avaldivi6.github.io</a></p>
-          <p>Links:<br>
-            <a href="#" target="_blank">Google Scholar</a><br>
-            <a href="#" target="_blank">ORCID</a><br>
-            <a href="https://github.com/avaldivi6" target="_blank">GitHub</a>
-          </p>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3 class="section-title">CV</h3>
-          <p class="muted">Downloadable CV: <a href="/assets/files/Valdivia_CV_2026.pdf" target="_blank">Valdivia_CV_2026.pdf</a> (upload the compiled PDF to this path).</p>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3 class="section-title">Migration checklist (quick)</h3>
-          <ol>
-            <li><strong>Branch:</strong> <code>git checkout -b jekyll-migration</code></li>
-            <li><strong>Assets:</strong> upload headshot to <code>/assets/images/headshot.jpg</code> and compiled CV to <code>/assets/files/Valdivia_CV_2026.pdf</code></li>
-            <li><strong>Scaffold pages:</strong> create <code>_pages/teaching.md</code>, <code>_pages/about.md</code>, <code>_pages/research.md</code>, <code>_pages/publications.md</code> and paste content from this file</li>
-            <li><strong>Publications:</strong> add <code>assets/publications.bib</code> and use a small build step (or pre-render HTML) to show full bibliography</li>
-            <li><strong>Local test:</strong> <code>bundle exec jekyll serve</code> and verify at <code>http://127.0.0.1:4000</code></li>
-            <li><strong>Deploy:</strong> push branch and switch GitHub Pages source (or merge to main if site is buildable on GitHub Pages).</li>
-          </ol>
-        </div>
-
-      </aside>
-    </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      © <span id="year"></span> Arturo Valdivia — Senior Lecturer, Department of Statistics, Indiana University.
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+          <h2 id="about-t
