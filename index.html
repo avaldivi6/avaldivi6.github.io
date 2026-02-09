@@ -34,6 +34,7 @@
   </style>
 </head>
 <body>
+  
   <!--
     MIGRATION NOTES:
     - This is the teaching-first single-file site. Sections are annotated for easy migration to Jekyll/Hugo.
@@ -225,41 +226,6 @@
       © <span id="year"></span> Arturo Valdivia — Senior Lecturer, Department of Statistics, Indiana University.
     </div>
   </footer>
-
-  <!--
-    DETAILED MIGRATION (copy/paste for repo)
-    ---------------------------------------------------------------------------
-    1) Create branch:
-       git checkout -b jekyll-migration
-
-    2) Add assets:
-       mkdir -p assets/images assets/files
-       # upload headshot: assets/images/headshot.jpg
-       # upload compiled CV: assets/files/Valdivia_CV_2026.pdf
-
-    3) Choose theme (Minimal Mistakes recommended) and copy starter into repo, or scaffold minimal Jekyll site:
-       jekyll new . --force
-       # then copy _pages and assets over
-
-    4) Convert sections:
-       # create _pages/teaching.md with front-matter:
-       ---
-       title: Teaching
-       permalink: /teaching/
-       ---
-       [paste teaching HTML content as Markdown]
-       # repeat for about.md, research.md, publications.md
-
-    5) Publications:
-       # If you provide a .bib, place it at assets/publications.bib and either:
-       # - pre-render publication HTML and commit it to publications.md
-       # - or set up GitHub Actions to run bibtex -> yaml conversion and build
-
-    6) Test and deploy:
-       bundle install
-       bundle exec jekyll serve
-       # test locally then push to GitHub and switch Pages settings if needed
-  -->
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
