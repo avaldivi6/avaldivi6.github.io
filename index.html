@@ -4,275 +4,35 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Arturo Valdivia — Senior Lecturer, Department of Statistics, Indiana University</title>
-  <meta name="description" content="Arturo Valdivia — Senior Lecturer (Statistics). Teaching-centered profile: courses, teaching activities, syllabi, contact." />
+  <meta name="description" content="Arturo Valdivia — Senior Lecturer (Statistics). Teaching-centered profile: courses, pedagogy, materials, publications, contact." />
   <style>
     :root{--accent:#0b66c3;--bg:#f8f9fb;--card:#fff;--muted:#666}
-    *{box-sizing:border-box}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:var(--bg);color:#111;line-height:1.45}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:var(--bg);color:#111;line-height:1.5}
     header{background:linear-gradient(90deg,rgba(11,102,195,0.12),transparent);padding:28px 18px;border-bottom:1px solid rgba(0,0,0,0.04)}
-    .container{max-width:980px;margin:0 auto;padding:18px}
+    .container{max-width:1000px;margin:0 auto;padding:18px}
     .top{display:flex;gap:18px;align-items:center}
-    .photo{flex:0 0 110px;height:110px;border-radius:8px;background:#ddd;display:inline-block;overflow:hidden}
-    .photo img{width:100%;height:100%;object-fit:cover;display:block}
-    h1{margin:0;font-size:1.6rem}
+    .photo{flex:0 0 110px;height:110px;border-radius:8px;background:#ddd;overflow:hidden}
+    .photo img{width:100%;height:100%;object-fit:cover}
+    h1{margin:0;font-size:1.7rem}
     .role{color:var(--muted);margin-top:6px}
     nav{margin-top:12px}
-    nav a{margin-right:12px;color:var(--accent);text-decoration:none;font-weight:600}
+    nav a{margin-right:14px;color:var(--accent);text-decoration:none;font-weight:600}
     main{padding:26px 0}
-    .grid{display:grid;grid-template-columns:1fr 320px;gap:22px}
-    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,40,0.04)}
-    .section-title{font-size:1.05rem;margin:0 0 10px 0}
+    .grid{display:grid;grid-template-columns:1fr 300px;gap:22px}
+    .card{background:var(--card);padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,40,0.04)}
+    .section-title{margin:0 0 12px 0;font-size:1.15rem}
     .muted{color:var(--muted);font-size:0.95rem}
     ul.pub{padding-left:18px;margin:6px 0}
-    .contact a{color:var(--accent);text-decoration:none}
-    footer{padding:18px;border-top:1px solid rgba(0,0,0,0.04);margin-top:26px;text-align:center;color:var(--muted);font-size:0.9rem;background:transparent}
-    .small-note{font-size:0.9rem;color:var(--muted)}
-    pre.bib-example{background:#f4f6f9;border-radius:6px;padding:10px;overflow:auto;font-family:monospace;font-size:0.9rem}
-    .badge{display:inline-block;padding:6px 8px;border-radius:6px;background:rgba(11,102,195,0.08);color:var(--accent);font-weight:700;font-size:0.85rem}
-    table.courses{width:100%;border-collapse:collapse}
-    table.courses td, table.courses th{padding:6px 8px;border-bottom:1px solid #f0f2f5}
-    @media(max-width:880px){.grid{grid-template-columns:1fr}.photo{width:90px;height:90px}}
+    footer{padding:18px;border-top:1px solid rgba(0,0,0,0.05);margin-top:30px;text-align:center;color:var(--muted);font-size:0.9rem}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.photo{width:90px;height:90px}}
   </style>
 </head>
+
 <body>
-  <!--
-    MIGRATION NOTES (commented for repo use):
-    - This is the teaching-first single-file site. Sections are annotated for easy migration to Jekyll/Hugo.
-    - Jekyll mapping:
-        _pages/about.md       -> #about content
-        _pages/teaching.md    -> #teaching content (primary)
-        _pages/research.md    -> #research content
-        _pages/publications.md-> #publications content (or use assets/publications.bib)
-    - Publications entries use data-* attributes matching BibTeX fields (bibkey, author, year, title, journal/booktitle, doi, url).
-    - Visible "Migration checklist" card was removed at user request; the detailed checklist remains below in a commented block for future use.
-  -->
 
-  <header>
-    <div class="container">
-      <div class="top">
-        <div class="photo" aria-hidden="true">
-          <!-- Replace with your headshot: upload to repo and use /assets/images/headshot.jpg -->
-          <img src="https://avatars.githubusercontent.com/u/0?v=4" alt="Arturo Valdivia headshot">
-        </div>
-        <div>
-          <h1>Arturo Valdivia</h1>
-          <div class="role">Senior Lecturer — Department of Statistics, Indiana University, Bloomington</div>
-          <nav aria-label="Primary">
-            <a href="#teaching">Teaching</a>
-            <a href="#about">About</a>
-            <a href="#research">Research</a>
-            <a href="#publications">Publications</a>
-            <a href="#contact">Contact</a>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <div class="container grid">
-
-      <!-- LEFT COLUMN: primary content (Teaching-first) -->
-      <div>
-
-        <!--
-          SECTION: Teaching (primary)
-          Jekyll target: _pages/teaching.md
-        -->
-        <section id="teaching" class="card" aria-labelledby="teaching-title">
-          <h2 id="teaching-title" class="section-title">Teaching — summary & highlights</h2>
-
-          <!-- Teaching Activities and Philosophy inserted as requested -->
-          <p><strong>Teaching focus:</strong> curriculum development, large-enrollment instruction, and statistics education. I design courses to emphasize simulation-based inference, practical data analysis, and accessible materials for diverse learners.</p>
-
-          <h3 class="section-title" style="margin-top:8px">Teaching Activities and Philosophy</h3>
-          <p>My teaching spans undergraduate and graduate courses in statistics and data science, with an emphasis on applied modeling, statistical inference, and the use of modern computational tools. I regularly teach Applied Linear Models I and II (S431/S631 and S432/S632), introductory and intermediate courses in statistical inference (S350, S520), Biometry (S330/S530), and introductory statistics courses for data science graduate students, including online instruction in R (S519).</p>
-
-          <p>Across these courses, my approach emphasizes clear learning outcomes, alignment between instruction and assessment, and the integration of data-driven, reproducible workflows. I aim to help students develop both conceptual understanding and practical skills, preparing them to reason with data in academic, professional, and research settings. I am particularly interested in course and curriculum design, experiential learning opportunities, and evidence-based teaching practices that support student engagement and success at different stages of their academic careers.</p>
-
-          <p class="muted"><strong>Selected teaching positions</strong></p>
-          <ul>
-            <li>Senior Lecturer, Department of Statistics — Indiana University, Bloomington. <span class="muted">August 2019 — present</span></li>
-            <li>Lecturer, Department of Statistics — Indiana University, Bloomington. <span class="muted">August 2013 — July 2019</span></li>
-            <li>Instructor, School of Mathematical and Statistical Sciences — Arizona State University. <span class="muted">August 2011 — August 2012</span></li>
-          </ul>
-
-          <h3 class="section-title" style="margin-top:8px">Selected courses (highlights)</h3>
-
-          <!-- Course table is easy to convert into a per-course page later -->
-          <table class="courses" aria-labelledby="teaching-title">
-            <tbody>
-              <tr>
-                <th style="text-align:left">Course</th>
-                <th style="text-align:left">Notes</th>
-              </tr>
-              <tr>
-                <td><strong>STAT-S 520</strong> — Introduction to Statistics</td>
-                <td>Large-enrollment course (399 students across many sections, 2017–2025). Redesigned for online asynchronous delivery (summer 2020) and added simulation-based inference (fall 2022).</td>
-              </tr>
-              <tr>
-                <td><strong>STAT-S 631</strong> — Applied Linear Models I</td>
-                <td>Taught multiple sections (2014–2025). Major redesign and online offerings; emphasis on applied computation and reproducible analysis.</td>
-              </tr>
-              <tr>
-                <td><strong>STAT-S 632</strong> — Applied Linear Models II</td>
-                <td>Follow-up advanced modeling course; includes projects and resampling methods.</td>
-              </tr>
-              <tr>
-                <td><strong>STAT-S 100</strong> — Statistical Literacy</td>
-                <td>Introductory course for non-majors; focus on interpretation and communication of data.</td>
-              </tr>
-              <tr>
-                <td><strong>STAT-S 301</strong> — Statistics for Business</td>
-                <td>Service course for business majors; emphasis on applied problem solving.</td>
-              </tr>
-              <tr>
-                <td><strong>STAT-S 681</strong> — Topics in Statistical Machine Learning</td>
-                <td>Special topics graduate course; exposure to ensemble methods and modern supervised learning.</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <p class="small-note" style="margin-top:8px">Pedagogical notes: curriculum development for STAT-S 520 and STAT-S 631 included asynchronous modules, problem-set redesign, and incorporation of simulation-first approaches. I maintain syllabi, sample assignments, and exam archives (available on request or to students via course site).</p>
-        </section>
-
-        <!--
-          SECTION: About (secondary) — includes Faculty Introduction (Website Bio)
-          Jekyll target: _pages/about.md
-        -->
-        <section id="about" class="card" aria-labelledby="about-title" style="margin-top:16px">
-          <h2 id="about-title" class="section-title">Faculty Introduction</h2>
-
-          <p>I am a faculty member in the Department of Statistics at Indiana University, where I teach undergraduate and graduate courses in statistics and data science. My work focuses on modern approaches to statistical inference, applied linear models, and the integration of computation and reproducible workflows into statistics education.</p>
-
-          <p>I am a co-author of the textbook <em>Statistical Inference via Data Science: A ModernDive into R and the Tidyverse</em> (2nd Edition), which promotes a data-science–driven approach to teaching statistics and is used by instructors and programs beyond Indiana University. In addition to teaching, I am actively involved in curricular development, program-level innovation, and professional development for educators at the national and international level, with particular interest in experiential learning, assessment design, and emerging tools for teaching and learning with data.</p>
-
-          <p class="muted">Office: Department of Statistics — Indiana University, Bloomington. Office hours: see course pages or contact me directly.</p>
-        </section>
-
-
-        <!--
-          SECTION: Publications (placeholder & structured)
-          Jekyll target: _pages/publications.md or assets/publications.bib
-        -->
-        <section id="publications" class="card" aria-labelledby="pub-title" style="margin-top:16px">
-          <h2 id="pub-title" class="section-title">Selected publications</h2>
-          <p class="muted">Full bibliography: provide an assets/publications.bib for automated import (recommended).</p>
-
-          <!-- Updated selected publication to your book entry; data-* attributes match BibTeX fields -->
-          <ul class="pub" aria-labelledby="pub-title">
-            <li class="publication"
-                data-bibkey="ismay2025"
-                data-author="Ismay, C. and Kim, A. and Valdivia, A."
-                data-year="2025"
-                data-title="Statistical Inference via Data Science: A ModernDive into R and the Tidyverse. 2nd Ed."
-                data-type="book"
-                data-publisher="CRC Press"
-                data-url=""
-                >
-              Ismay, C., Kim, A., <strong>Valdivia, A.</strong> (2025). <em>Statistical Inference via Data Science: A ModernDive into R and the Tidyverse. 2nd Ed.</em> CRC Press.
-            </li>
-
-            <!-- Other entries can be added below with consistent data-* attributes -->
-          </ul>
-
-          <!--
-          <p class="small-note">If you upload a `.bib` (assets/publications.bib) I will generate (or help you generate) a Jekyll-compatible publications page that uses the BibTeX entries to produce a full bibliography automatically.</p>
-          -->
-        </section>
-
-
-
-        
-
-        <!--
-          SECTION: Research (tertiary)
-          Jekyll target: _pages/research.md
-        -->
-        <section id="research" class="card" aria-labelledby="research-title" style="margin-top:16px">
-          <h2 id="research-title" class="section-title">Research & interests</h2>
-          <p class="muted">Research interests listed as they appear on CV</p>
-          <ul>
-            <li><strong>Statistical Education</strong> — curriculum design, assessment, and scalable instruction</li>
-            <li><strong>Statistical Learning</strong> — random forest and rule-based ensemble methods</li>
-            <li><strong>Generalized Linear Mixed Models</strong> — applied modeling for clustered/longitudinal data</li>
-            <li><strong>Item Response Theory</strong> — psychometric modeling and assessment</li>
-          </ul>
-          <p class="small-note">Note: this site is teaching-first; if you'd like to present a fuller research CV and publications list prominently, I can re-balance the layout to research-first.</p>
-        </section>
-
-
-      </div>
-
-      <!-- RIGHT COLUMN: Sidebar -->
-      <aside>
-
-        <div class="card contact" id="contact" aria-labelledby="contact-title">
-          <h3 id="contact-title" class="section-title">Contact</h3>
-          <p>Email: <a href="mailto:artvaldi@iu.edu">artvaldi@iu.edu</a></p>
-          <p>Department of Statistics, Indiana University, Bloomington</p>
-          <p>Website: <a href="https://avaldivi6.github.io" target="_blank" rel="noopener">avaldivi6.github.io</a></p>
-          <p>Links:<br>
-            <a href="#" target="_blank">Google Scholar</a><br>
-            <a href="#" target="_blank">ORCID</a><br>
-            <a href="https://github.com/avaldivi6" target="_blank">GitHub</a>
-          </p>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3 class="section-title">CV</h3>
-          <p class="muted">Downloadable CV: <a href="/assets/files/Valdivia_CV_2026.pdf" target="_blank">Valdivia_CV_2026.pdf</a> (upload the compiled PDF to this path).</p>
-        </div>
-
-        <!-- Visible migration checklist removed per request. The full checklist remains commented (below). -->
-
-      </aside>
-    </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      © <span id="year"></span> Arturo Valdivia — Senior Lecturer, Department of Statistics, Indiana University.
-    </div>
-  </footer>
-
-  <!--
-    DETAILED MIGRATION CHECKLIST (kept here, commented)
-    ---------------------------------------------------------------------------
-    1) Create branch:
-       git checkout -b jekyll-migration
-
-    2) Add assets:
-       mkdir -p assets/images assets/files
-       # upload headshot: assets/images/headshot.jpg
-       # upload compiled CV: assets/files/Valdivia_CV_2026.pdf
-
-    3) Choose theme (Minimal Mistakes recommended) and copy starter into repo, or scaffold minimal Jekyll site:
-       jekyll new . --force
-       # then copy _pages and assets over
-
-    4) Convert sections:
-       # create _pages/teaching.md with front-matter:
-       ---
-       title: Teaching
-       permalink: /teaching/
-       ---
-       [paste teaching HTML content as Markdown]
-       # repeat for about.md, research.md, publications.md
-
-    5) Publications:
-       # If you provide a .bib, place it at assets/publications.bib and either:
-       # - pre-render publication HTML and commit it to publications.md
-       # - or set up GitHub Actions to run bibtex -> yaml conversion and build
-
-    6) Test and deploy:
-       bundle install
-       bundle exec jekyll serve
-       # test locally then push to GitHub and switch Pages settings if needed
-  -->
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
-
+<header>
+  <div class="container">
+    <div class="top">
+      <div class="photo">
+        <img src="https://avatars.githubusercontent.com/u/0?v=4" alt="Arturo Valdivia"
