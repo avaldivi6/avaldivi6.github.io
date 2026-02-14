@@ -28,7 +28,8 @@ include:
   - _data
   - assets
 
-  defaults:
+
+defaults:
   - scope:
       path: ""
       type: "pages"
