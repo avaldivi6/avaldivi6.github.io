@@ -31,10 +31,7 @@ logo:
   text: "Placeholder Name"
 
 # Keep plugins empty for GitHub Pages native build
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-remote-theme # If you are using the remote_theme option
+plugins: [] # use no unsupported plugins for native GitHub Pages builds
 markdown: kramdown
 kramdown:
   input: GFM
