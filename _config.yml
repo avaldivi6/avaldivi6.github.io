@@ -10,10 +10,6 @@ author:
   name: "Arturo Valdivia"
   email: "artvaldi@iu.edu"
 
-
-logo:
-  path: /assets/images/headshot01.jpeg
-
 # Keep plugins empty for native GitHub Pages builds
 plugins:
   - jekyll-paginate
