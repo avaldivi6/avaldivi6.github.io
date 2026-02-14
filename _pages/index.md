@@ -1,7 +1,7 @@
 ---
-title: Home
-layout: single
-permalink: /
+layout: home
+author_profile: true
+title: "About me"
 ---
 
 # Welcome
