@@ -28,3 +28,9 @@ plugins:
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Reading Files
+include:
+  - _pages
+  - _courses
+  - _data
