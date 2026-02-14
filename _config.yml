@@ -1,19 +1,18 @@
 # _config.yml
-title: Arturo Valdivia
-email: ""
+title: "Placeholder Name"
 description: "Teaching-centered faculty site (placeholder content)"
-baseurl: "" # leave empty for user.github.io
-url: "https://avaldivi6.github.io" # change if you use custom domain
+url: "https://avaldivi6.github.io" # your GitHub Pages url
+baseurl: "" # keep empty for username.github.io
 
-# Use Minimal Mistakes remote theme (works on GitHub Pages)
+# Use Minimal Mistakes remote theme so GitHub Pages builds without plugins
 remote_theme: mmistakes/minimal-mistakes
 
-# Basic author/site info (update later)
+# Basic site/author info (update later)
 author:
-  name: "Arturo Valdivia"
-  email: "artvaldi@iu.edu"
+  name: "Placeholder Name"
+  email: ""
 
-# Navigation (top-level)
+# Navigation
 nav:
   - title: "Home"
     url: /
@@ -26,7 +25,13 @@ nav:
   - title: "Contact"
     url: /contact/
 
-plugins: [] # use no unsupported plugins for native GitHub Pages builds
+# Minimal Mistakes config examples (optional customizations)
+logo:
+  path: /assets/images/headshot.jpg
+  text: "Placeholder Name"
+
+# Keep plugins empty for GitHub Pages native build
+plugins: []
 markdown: kramdown
 kramdown:
   input: GFM
