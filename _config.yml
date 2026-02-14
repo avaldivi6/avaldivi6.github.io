@@ -1,0 +1,32 @@
+# _config.yml
+title: Arturo Valdivia
+email: ""
+description: "Teaching-centered faculty site (placeholder content)"
+baseurl: "" # leave empty for user.github.io
+url: "https://avaldivi6.github.io" # change if you use custom domain
+
+# Use Minimal Mistakes remote theme (works on GitHub Pages)
+remote_theme: mmistakes/minimal-mistakes
+
+# Basic author/site info (update later)
+author:
+  name: "Arturo Valdivia"
+  email: "artvaldi@iu.edu"
+
+# Navigation (top-level)
+nav:
+  - title: "Home"
+    url: /
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact"
+    url: /contact/
+
+plugins: [] # use no unsupported plugins for native GitHub Pages builds
+markdown: kramdown
+kramdown:
+  input: GFM
