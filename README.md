@@ -1,5 +1,1 @@
----
-layout: single
-title: "Welcome to My Site"
-permalink: /
----
+Placeholder
