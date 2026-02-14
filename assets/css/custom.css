@@ -1,0 +1,14 @@
+/* assets/css/custom.css — OPTION B (wide & readable) */
+.container, .site, .page, .page__content, .site-content {
+  max-width: 1200px !important;
+  width: calc(100% - 48px) !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+img, figure, table {
+  max-width: 100% !important;
+  height: auto !important;
+}
