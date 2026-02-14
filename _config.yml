@@ -36,6 +36,3 @@ defaults:
       layout: "single"
       author_profile: true
       classes: "wide"
-
-footer:
-  disable_feed: true
