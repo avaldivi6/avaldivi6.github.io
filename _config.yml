@@ -6,10 +6,6 @@ baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes
 
-author:
-  name: "Arturo Valdivia"
-  email: "artvaldi@iu.edu"
-
 # Keep plugins empty for native GitHub Pages builds
 plugins:
   - jekyll-paginate
