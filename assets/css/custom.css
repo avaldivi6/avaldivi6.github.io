@@ -1,14 +1,35 @@
-/* assets/css/custom.css — OPTION B (wide & readable) */
-.container, .site, .page, .page__content, .site-content {
-  max-width: 1200px !important;
-  width: calc(100% - 48px) !important;
-  padding-left: 24px !important;
-  padding-right: 24px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+/* FULL WIDTH LAYOUT */
+
+/* Remove max-width restrictions from common layout containers */
+.container,
+.wrapper,
+.page,
+.page-content,
+.page__content,
+.site,
+.site-content,
+.main,
+.content {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
 
-img, figure, table {
+/* Ensure header also spans full width */
+.site-header,
+.header,
+.site-nav {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Keep images and tables responsive */
+img,
+figure,
+table {
   max-width: 100% !important;
   height: auto !important;
 }
