@@ -1,6 +1,6 @@
 # _config.yml
-title: "Placeholder Name"
-description: "Teaching-centered faculty site (placeholder content)"
+title: "Arturo Valdivia's Website"
+description: "My site"
 url: "https://avaldivi6.github.io" # your GitHub Pages url
 baseurl: "" # keep empty for username.github.io
 
@@ -9,8 +9,8 @@ remote_theme: mmistakes/minimal-mistakes
 
 # Basic site/author info (update later)
 author:
-  name: "Placeholder Name"
-  email: ""
+  name: "Arturo Valdivia"
+  email: "artvaldi@iu.edu"
 
 # Navigation
 nav:
