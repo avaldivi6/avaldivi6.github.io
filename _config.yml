@@ -1,18 +1,16 @@
-# _config.yml
+# _config.yml (minimal, safe for GitHub Pages with remote_theme)
 title: "Arturo Valdivia's Website"
-description: "My site"
-url: "https://avaldivi6.github.io" # your GitHub Pages url
-baseurl: "" # keep empty for username.github.io
+description: "Teaching-centered faculty site (placeholder)."
+url: "https://avaldivi6.github.io"
+baseurl: ""
 
-# Use Minimal Mistakes remote theme so GitHub Pages builds without plugins
 remote_theme: mmistakes/minimal-mistakes
 
-# Basic site/author info (update later)
 author:
   name: "Arturo Valdivia"
   email: "artvaldi@iu.edu"
 
-# Navigation
+# top nav
 nav:
   - title: "Home"
     url: /
@@ -25,19 +23,14 @@ nav:
   - title: "Contact"
     url: /contact/
 
-# Minimal Mistakes config examples (optional customizations)
 logo:
   path: /assets/images/headshot.jpg
-  text: "Placeholder Name"
+  text: "Arturo Valdivia"
 
-# Keep plugins empty for GitHub Pages native build
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+# Keep plugins empty for native GitHub Pages builds
+plugins: []
+
+# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
