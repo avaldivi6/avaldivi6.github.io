@@ -4,24 +4,48 @@ layout: single
 permalink: /teaching/
 ---
 
-## Teaching activities & philosophy
+## Overview
 
-My teaching spans undergraduate and graduate courses in statistics and data science, emphasizing applied modeling, statistical inference, and reproducible computational workflows. I emphasize clear learning outcomes, alignment between instruction and assessment, and active, evidence-based practices.
+### Teaching Activities & Philosophy
 
-## Selected courses
+My teaching spans undergraduate and graduate courses in statistics. I emphasize clear learning outcomes, alignment between instruction and assessment, and the integration of data-driven, reproducible workflows. I design courses to balance conceptual understanding and practical data skills for academic and professional contexts.
 
-- **STAT-S 520** — Introduction to Statistics  
-  Large-enrollment introductory course; redesigned to include simulation-based inference and asynchronous modules.
+### Current Courses
 
-- **STAT-S 631** — Applied Linear Models I  
-  Applied regression modeling with emphasis on reproducible workflows and data-driven analysis.
+- **STAT-S 631 & STAT-S 632 — Applied Linear Models I and II**  
+  A two-semester sequence for graduate students focused on studying, implementing, and interpreting linear models using inferential techniques, matrix-based methods, and R.
 
-- **STAT-S 632** — Applied Linear Models II  
-  Advanced modeling with project-based assessments and resampling methods.
+- **STAT-S 431 & STAT-S 432 — Applied Linear Models I and II**  
+  The undergraduate equivalent to STAT-S 631 & STAT-S 632.
 
-- **STAT-S 681** — Topics in Statistical Machine Learning  
-  Graduate-level course covering ensemble methods and supervised learning.
+- **STAT-S 350 — Applied Linear Models I**  
+  A self-contained, rigorous introduction to statistical inference for students seeking a deeper understanding of statistical reasoning.
 
-## Teaching materials & resources
+- **STAT-S 519 — Introduction to Statistics in R**  
+  An online introductory statistics course for graduate students covering probability foundations, estimation/testing, regression, and reproducible workflows.
 
-Links to syllabi, labs, slides, and assignments will be added here. Upload materials to `/assets/files/` and link them from this page or create per-course pages under `/courses/`.
+- **STAT-S 530 / STAT-S 330 — Biometry (graduate / undergraduate)**  
+  Applied second course in biometry emphasizing modeling, implementation in R, and scientific communication.
+
+### Former Courses
+
+- STAT-S 520 — Introduction to Statistics  
+- STAT-S 352 — Data Modeling and Inference  
+- STAT-S 303 — Statistics for the Life Sciences  
+- STAT-S 303 — Statistics for Speech and Hearing Sciences  
+- STAT-S 100 — Statistical Literacy  
+- STAT-S 301 — Statistics for Business  
+- STAT-S 681 — Topics in Statistical Machine Learning  
+- STAT-S 695 — Reading in Statistics
+
+---
+
+## For Students
+
+Links to syllabi, assignments, labs, and course GitHub repositories will be added here. Upload files to `/assets/files/` and link them from this page (I can help wire those links once files are uploaded).
+
+## Curriculum & Development
+
+- Curricular redesign of STAT-S 520 and STAT-S 631  
+- Integration of reproducible workflows into existing courses  
+- Simulation-first inference approach
