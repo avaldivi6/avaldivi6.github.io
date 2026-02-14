@@ -1,5 +1,5 @@
 # _config.yml (minimal, safe for GitHub Pages with remote_theme)
-title: "Arturo Valdivia's Website"
+title: "Arturo Valdivia"
 description: "Teaching-centered faculty site (placeholder)."
 url: "https://avaldivi6.github.io"
 baseurl: ""
@@ -13,7 +13,6 @@ author:
 
 logo:
   path: /assets/images/headshot01.jpg
-  text: "Arturo Valdivia"
 
 # Keep plugins empty for native GitHub Pages builds
 plugins:
