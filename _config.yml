@@ -31,7 +31,13 @@ logo:
   text: "Placeholder Name"
 
 # Keep plugins empty for GitHub Pages native build
-plugins: [] # use no unsupported plugins for native GitHub Pages builds
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 markdown: kramdown
 kramdown:
   input: GFM
