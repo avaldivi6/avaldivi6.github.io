@@ -14,7 +14,7 @@ permalink: /
          style="width:100%; border-radius:8px;">
   </div>
 
-  <div style="flex:1; min-width:250px; markdown="1">
+  <div style="flex:1; min-width:250px;" markdown="1">
 
 
   I am a senior lecturer in the Department of Statistics at Indiana University, where I teach undergraduate and graduate courses in statistics.
