@@ -4,14 +4,17 @@ layout: single
 permalink: /publications/
 ---
 
-## Selected publications
+## Selected Publications
 
 - Ismay, C., Kim, A., **Valdivia, A.** (2025). *Statistical Inference via Data Science: A ModernDive into R and the Tidyverse. 2nd Ed.* CRC Press.
 
----
-
-### Notes about bibliography
-To create a full automated bibliography later:
-- Add `assets/publications.bib` (BibTeX file).
-- Option A (simpler): pre-render a static HTML or Markdown bibliography from the `.bib` file and paste into this page.
-- Option B (advanced): use GitHub Actions to convert `.bib` → `_data/` or HTML during build (I can help when ready).
+<!--
+BibTeX-friendly note (optional): bibkey: ismay2025
+@book{ismay2025,
+  author = {Ismay, Chester and Kim, Anna and Valdivia, Arturo},
+  title = {Statistical Inference via Data Science: A ModernDive into R and the Tidyverse},
+  edition = {2},
+  year = {2025},
+  publisher = {CRC Press}
+}
+-->
