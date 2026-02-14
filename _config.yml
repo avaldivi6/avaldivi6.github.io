@@ -10,18 +10,6 @@ author:
   name: "Arturo Valdivia"
   email: "artvaldi@iu.edu"
 
-# top nav
-nav:
-  - title: "Home"
-    url: /
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "Contact"
-    url: /contact/
 
 logo:
   path: /assets/images/headshot.jpg
