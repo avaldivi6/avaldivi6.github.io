@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "Academic Work"
-    url: /academic-work/
+    url: /academic/
   - title: "Teaching"
     url: /teaching/
   - title: "Courses"
