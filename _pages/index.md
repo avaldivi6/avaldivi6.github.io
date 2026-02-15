@@ -10,20 +10,53 @@ permalink: /
 
   <div style="flex:0 0 220px;">
     <img src="/assets/images/headshot01.jpeg" 
-         alt="Arturo Valdivia"
+         alt="Arturo Valdivia Ph.D. - Statistician & Educator"
          style="width:100%; border-radius:8px;">
   </div>
 
   <div style="flex:1; min-width:250px;" markdown="1">
 
+I am a statistician and educator currently serving as Senior Lecturer and Director of Undergraduate Studies in the Department of Statistics at Indiana University
 
-  I am a senior lecturer in the Department of Statistics at Indiana University, where I teach undergraduate and graduate courses in statistics.
-  
+My teaching interests include modern statistical inference, linear models, and statistical learning, with an emphasis on experiential learning and reproducible computational workflows.
 
-  My teaching interests focus on modern approaches to statistical inference, statistical learning, experiential learning, applied linear models, and the integration of computation and reproducible workflows.
-  
+I am a statistician and educator focused on statistical modeling, data science, and the design of curricula that connect theory, computation, and clear communication. I am a Senior Lecturer and also serve as Director of Undergraduate Studies in the Department of Statistics at Indiana University, and am author/co-author of Statistical Inference via Data Science: A ModernDive into R and the Tidyverse (2nd ed., CRC Press). 
 
-  I am the co-author of *Statistical Inference via Data Science: A ModernDive into R and the Tidyverse (2nd Edition)*.
+ 
+
+### Recent highlights and selected teaching contributions
+
+
+- Co-author, Statistical Inference via Data Science (2nd ed., CRC Press, 2025). 
+- Indiana University Trustees Teaching Award recipient, 2023. 
+- Lead designer of the Statistics Specialization for the B.S. in Data Science and the B.A. in Mathematics with a Major in Statistics (program approvals anticipated for Fall 2026). 
+- Architect of the Applied Linear Models redesign, transitioning the sequence into two independent courses—one applied and one theoretical—for undergraduate and graduate students. The new courses will be offered in Fall 2026.
+- Designer of STAT-S 100: ModernDive: Data Exploration and Storytelling. The new course will be offered in Fall 2026.
+
+
+### Quick links
+
+Academic Work
+ — integrated teaching, curriculum, and scholarship
+
+Courses
+ — syllabi, pedagogical notes, major redesign features
+
+Students & Mentoring
+ — committees, advising, TA development
+
+Publications
+ — split by educational vs research outputs
+
+CV & Documents
+ — downloadable CV and Teaching Statement
+
+Contact
+ — email and office information
+
+### How this site is organized
+
+This site emphasizes integrated academic work: teaching practice and leadership, curriculum architecture, and the scholarship that ties those activities together. The promotion narrative is visible through page architecture and evidence rather than promotional language.
 
   </div>
 
