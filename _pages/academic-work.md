@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Academic Work"
-permalink: /academic-work/
+permalink: /
 ---
 
 This page integrates my instructional practice, curriculum leadership, and the scholarship that connects them. 
