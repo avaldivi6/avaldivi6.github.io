@@ -1,17 +1,17 @@
 main:
   - title: "Home"
     url: /
-  - title: "Academic-work"
+  - title: "Academic Work"
     url: /academic-work/
   - title: "Teaching"
-    url: /Course/
-  - title: "Courses"
     url: /teaching/
-  - title: "Students-mentorship"
+  - title: "Courses"
+    url: /courses/
+  - title: "Students Mentorship"
     url: /students-mentorship/
   - title: "Publications"
     url: /publications/
   - title: "CV_documents"
-    url: /cd-documents/
+    url: /cv-documents/
   - title: "Contact"
     url: /contact/
