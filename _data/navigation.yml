@@ -8,7 +8,7 @@ main:
   - title: "Courses"
     url: /courses/
   - title: "Students Mentorship"
-    url: /students-mentorship/
+    url: /mentorship/
   - title: "Publications"
     url: /publications/
   - title: "CV_documents"
