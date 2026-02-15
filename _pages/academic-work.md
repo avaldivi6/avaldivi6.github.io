@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Academic Work"
 permalink: /academic-work/
 ---
