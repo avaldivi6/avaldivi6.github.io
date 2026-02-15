@@ -16,11 +16,9 @@ permalink: /
 
   <div style="flex:1; min-width:250px;" markdown="1">
 
-I am a statistician and educator currently serving as Senior Lecturer and Director of Undergraduate Studies in the Department of Statistics at Indiana University
+I am a statistician and educator currently serving as Senior Lecturer and Director of Undergraduate Studies in the Department of Statistics at Indiana University.
 
 My teaching interests include modern statistical inference, linear models, and statistical learning, with an emphasis on experiential learning and reproducible computational workflows.
-
-I am a statistician and educator focused on statistical modeling, data science, and the design of curricula that connect theory, computation, and clear communication. I am a Senior Lecturer and also serve as Director of Undergraduate Studies in the Department of Statistics at Indiana University, and am author/co-author of Statistical Inference via Data Science: A ModernDive into R and the Tidyverse (2nd ed., CRC Press). 
 
  
 
