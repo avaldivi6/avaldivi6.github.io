@@ -54,10 +54,6 @@ CV & Documents
 Contact
  — email and office information
 
-### How this site is organized
-
-This site emphasizes integrated academic work: teaching practice and leadership, curriculum architecture, and the scholarship that ties those activities together. The promotion narrative is visible through page architecture and evidence rather than promotional language.
-
   </div>
 
 </div>
